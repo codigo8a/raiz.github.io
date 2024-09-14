@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: https://codigo8a.github.io/raiz
-baseurl: /project
+baseurl: https://codigo8a.github.io/raiz
 
 # variables
 name: h01000110
