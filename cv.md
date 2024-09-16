@@ -11,7 +11,7 @@ Full Stack Developer con más de 20 años de experiencia, siempre me he destacad
 </p>
 
 <blockquote>
-Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD), Behavior Driven Development (BDD), Metodologías Ágiles (Scrum), Bitbucket Pipelines (Atlassian), Amazon Web Service Administrator, Azure, Google cloud, Control de versiones (GIT), Bases de datos no relacionales, SOAP WebServices, ERP SAP Business One (SDK - UIAPI), TCP server (Sockets), Python, Flutter, Net core, React, node, next, Springbot).
+Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD), Behavior Driven Development (BDD), Metodologías Ágiles (Scrum), Bitbucket Pipelines (Atlassian), Amazon Web Service Administrator, Azure, Google cloud, Control de versiones (GIT), Bases de datos no relacionales, SOAP WebServices, ERP SAP Business One (SDK - UIAPI), TCP server (Sockets), Python, Flutter, Net core, React, node, next, Springboot).
 </blockquote>
 
 <hr/>
@@ -28,7 +28,7 @@ Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD
 2021 – Presente<br>
 Medellin - Colombia<br>
 <br>
-Clientes: Tuya, sistecredito, Comfama, Bolsa de Valores Colombia (Flutter, C#, .Net Core, React.js, Next.js, Springbot).
+Clientes: Tuya, sistecredito, Comfama, Bolsa de Valores Colombia (Flutter, C#, .Net Core, React.js, Next.js, Springboot).
 <hr/>
 
 ### Full Stack Developer.
