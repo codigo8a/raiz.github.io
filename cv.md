@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: Hoja de vida
+permalink: /cv/
 pdf: /public/HojaDeVida-JuanDavidOchoa.pdf
 linkedin: https://www.linkedin.com/in/juandavid8a
 ---
