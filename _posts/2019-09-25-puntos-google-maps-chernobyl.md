@@ -4,7 +4,7 @@ title:  "Puntos curiosos en google maps de Chernobyl"
 description: Listado de puntos en google maps sobre sitios curiosos en Chenobyl
 comments: true
 category: La Red
-tags: Web
+tags: web
 youtube: https://youtu.be/Sp00ZqfBnM4
 ---
 Recopilación de puntos en google maps sobre sitios curiosos dentro de Chernobyl 
