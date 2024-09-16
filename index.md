@@ -9,21 +9,21 @@ layout: default
 <div class="posts">
 	<table>
 		<tr>
-			<td><a href="{{ site.baseurl }}/tags">Tags-List/</a></td>
+			<td><a href="/tags">Tags-List/</a></td>
 			<td>&nbsp;-&nbsp;</td>
 			<td>&nbsp;-&nbsp;</td>
 		</tr>
 	{% for post in site.posts %}
 		<tr>
-			<td><a href="{{ site.baseurl }}{{  post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+			<td><a href="{{  post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
 			<td>{{ post.date | date: "%Y-%m-%d" }}</td>
 			<td>
 			{% for tag in post.tags %}
-			<a href="{{ site.baseurl }}/tag/{{ tag }}/" title="{{ tag }}">{{ tag }}</a>
+			<a href="/tag/{{ tag }}/" title="{{ tag }}">{{ tag }}</a>
 			{% endfor %}
 			</td>
 		</tr>
 	{% endfor %}
 	</table>
 </div>
-<script src="{{ site.baseurl }}/assets/js/001.js"></script>
+<script src="/assets/js/001.js"></script>
