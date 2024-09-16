@@ -4,6 +4,7 @@ title: Hoja de vida
 permalink: /cv/
 pdf: /public/HojaDeVida-JuanDavidOchoa.pdf
 linkedin: https://www.linkedin.com/in/juandavid8a
+youtube: https://www.youtube.com/@JuanDavidOchoa
 ---
 <p class="message">
 Full Stack Developer con más de 20 años de experiencia, siempre me he destacado en entender y analizar los procesos para  sistematizarlos eficientemente y resolver de una manera creativa los problemas. 
@@ -16,10 +17,10 @@ Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD
 <hr/>
 <div id="cf-pdf-down">Ver más en <a target="_blank" href="{{ page.linkedin }}">Linkedin</a></div>
 <div id="cf-pdf-down">Descargar <a target="_blank" href="{{ page.pdf }}">Hoja de Vida en PDF</a></div>
+<div id="cf-pdf-down">Ver <a target="_blank" href="{{ page.youtube }}">Canal de Youtube</a></div>
 <hr/>
 
 ## Experiencia Laboral
-
 
 ### Full Stack Developer.
 **Sophos Solutions S.A.S.**
