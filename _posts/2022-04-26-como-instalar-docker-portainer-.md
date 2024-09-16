@@ -4,7 +4,7 @@ title:  "Cómo instalar docker en linux"
 description: Cómo instalar docker en linux
 comments: true
 category: tutoriales
-tags: tutoriales trucos
+tags: virtualizacion tutoriales
 youtube: https://youtu.be/EbKw0Dcaf6o
 ---
 Paso a paso para tener docker instalado junto con un administrador visual de contenedores.

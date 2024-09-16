@@ -4,7 +4,7 @@ title:  "Cómo instalar Raspbian en Raspberry Pi"
 description: Cómo instalar Raspbian y otras configuraciones
 comments: true
 category: tutoriales
-tags: tutoriales trucos
+tags: tutoriales trucos linux
 youtube: https://youtu.be/m60_OxnNz5s
 ---
 Listado de cosas por instalar en una Raspberry, otras aplicaciones y configuraciones.

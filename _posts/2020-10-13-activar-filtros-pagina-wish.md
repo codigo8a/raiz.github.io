@@ -4,7 +4,7 @@ title:  "Cómo activar filtros en WISH"
 description: Cómo activar filtros en pagina de WISH
 comments: true
 category: tutoriales
-tags: trucos
+tags: trucos web
 youtube: https://youtu.be/07tvORy7cOw
 ---
 Paso a paso para activar los filtros en la pagina de WISH, que por algun motivo no los tiene disponibles para filtar el historial de pedidos en la version web.

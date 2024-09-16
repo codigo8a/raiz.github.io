@@ -4,7 +4,7 @@ title:  "Servicios gratuitos para desarrolladores"
 description: Servicios gratuitos para desarrolladores
 comments: true
 category: La Red
-tags: Herramientas
+tags: herramientas web
 videosomee: https://youtu.be/3Tue1UPaqlo
 videowin10: https://youtu.be/SUPPpapA3lg
 videofreeasp: https://youtu.be/3nlA5RI7jqg

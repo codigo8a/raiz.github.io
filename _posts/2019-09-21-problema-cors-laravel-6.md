@@ -4,7 +4,7 @@ title:  "Solucionar problema CORS en Laravel 6 | 2019"
 description: Cómo solucionar el problema Access-Control-Allow-Origin - CORS en Laravel 6
 comments: true
 category: tutoriales
-tags: tutoriales Laravel Error
+tags: error framework
 youtube: https://youtu.be/CDEaBtEeVwM
 ---
 Este tutorial es la actualización de un post anterior que ya no funciona en versiones nuevas:

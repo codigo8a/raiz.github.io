@@ -4,7 +4,7 @@ title:  "Cómo buscar y encontrar librerias flutter"
 description: Página web para buscar y encontrar librerias flutter
 comments: true
 category: tutoriales
-tags: trucos
+tags: trucos flutter framework
 youtube: https://youtu.be/DHhiFybG-Mg
 link: https://fluttergems.dev/
 ---
