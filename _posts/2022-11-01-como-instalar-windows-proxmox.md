@@ -3,8 +3,8 @@ layout: post
 title:  "Cómo instalar windows en proxmox"
 description: Cómo instalar una maquina virtual linux en Proxmox
 comments: true
-category: Tutoriales
-tags: Tutoriales Proxmox
+category: tutoriales
+tags: tutoriales Proxmox
 youtube: https://youtu.be/At5CpVwy-iY
 link: https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers
 ---

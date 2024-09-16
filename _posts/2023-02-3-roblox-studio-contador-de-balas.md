@@ -4,7 +4,7 @@ title:  "Cómo agregar un contador de balas en Roblox Studio"
 description: Cómo agregar un contador de balas en Roblox Studio
 comments: true
 category: Roblox
-tags: Tutoriales Trucos
+tags: tutoriales trucos
 youtube: https://youtu.be/EbKw0Dcaf6o
 ---
 Codigo para agregar un contador de balas en Roblox Studio usando el (ACS) Advanced Combat System.

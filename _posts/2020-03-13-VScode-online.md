@@ -3,8 +3,8 @@ layout: post
 title:  "Cómo instalar IDE VSCode en Ubuntu Server"
 description: Cómo instalar IDE VSCode en Ubuntu Server
 comments: true
-category: Tutoriales
-tags: Tutoriales Linux
+category: tutoriales
+tags: tutoriales Linux
 youtube: https://youtu.be/tWzzzGoNEq4
 ---
 Paso a paso para instalar el IDE de desarrollo VSCode y correrlo directamente en la nube desde una URL en un Servidor Linux Ubuntu alojado en Amazon AWS

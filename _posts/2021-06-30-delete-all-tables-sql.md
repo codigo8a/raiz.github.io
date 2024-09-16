@@ -3,8 +3,8 @@ layout: post
 title:  "Cómo eliminar todas las tablas SQL"
 description: Cómo eliminar todas las tablas de una base de datos SQL sin eliminar la base de datos
 comments: true
-category: Trucos
-tags: Trucos
+category: trucos
+tags: trucos
 youtube: https://youtu.be/CDEaBtEeVwM
 ---
 Código SQL para eliminar todas las tablas de una base de datos SQL sin eliminar la base de datos

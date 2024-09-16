@@ -3,8 +3,8 @@ layout: post
 title:  "Menú JOOMLA con imagenes"
 description: Código Javascript para manejar un menú en JOOMLA sólo con imagenes (sin componenetes o modulos) 
 comments: true
-category: Tutoriales
-tags: Tutoriales Javascript
+category: tutoriales
+tags: tutoriales Javascript
 youtube: https://youtu.be/2NfTcPnlSpc
 ---
 

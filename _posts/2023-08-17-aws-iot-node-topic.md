@@ -3,8 +3,8 @@ layout: post
 title:  "Cómo enviar un topic a AWS IOT con Node.js"
 description: "Cómo enviar un topic a AWS IOT con Node.js"
 comments: true
-category: Tutoriales
-tags: Tutoriales Trucos
+category: tutoriales
+tags: tutoriales trucos
 youtube: https://youtu.be/vItyn5jd-k8
 ---
 Codigo paso a paso para conectar y enviar un topic a AWS IOT usando Node.js.

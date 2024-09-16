@@ -3,8 +3,8 @@ layout: post
 title:  "Cómo agregar templates turnkey a proxmox"
 description: Cómo agregar los contenedores turnkey a proxmox
 comments: true
-category: Tutoriales
-tags: Tutoriales Proxmox
+category: tutoriales
+tags: tutoriales Proxmox
 youtube: https://youtu.be/x2nCjLq2KLE
 ---
 Comando de consola para lograr agregar los contenedores de turnkey al administrador de maquinas virtuales Proxmox.
