@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
-url: https://codigo8a.github.io/raiz
-baseurl: /raiz
+url: https://codigo8a.github.io/raiz.github.io
+baseurl: /raiz.github.io
 
 # variables
 name: juandavid.site
