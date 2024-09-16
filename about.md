@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm a simple man who likes code, games, memes and songs.
+#for ($i = 1; $i <= 1000; $i++){ echo "Be Happy"; }
