@@ -27,8 +27,7 @@ Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD
 2021 – Presente<br>
 Medellin - Colombia<br>
 <br>
-Clientes: Tuya, sistecredito, Comfama, Bolsa de Valores Colombia<br><br>
-Flutter, C#, .Net Core, React.js, Next.js, Springbot.
+Clientes: Tuya, sistecredito, Comfama, Bolsa de Valores Colombia (Flutter, C#, .Net Core, React.js, Next.js, Springbot).
 <hr/>
 
 ### Full Stack Developer.
@@ -37,8 +36,7 @@ Flutter, C#, .Net Core, React.js, Next.js, Springbot.
 2020 – 2021<br>
 Medellin - Colombia<br>
 <br>
-Cliente: OneSeven Technology<br><br>
-Flutter, C#, Net Core, Javascript, Node.Js, React framework, API, PHP, GraphQL.
+Cliente: OneSeven Technology (Flutter, C#, Net Core, Javascript, Node.Js, React framework, API, PHP, GraphQL).
 <hr/>
 
 ### Director Departamento de Desarrollo.
