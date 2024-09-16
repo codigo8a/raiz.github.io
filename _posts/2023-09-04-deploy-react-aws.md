@@ -26,7 +26,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 - https://aws.amazon.com/es/cli/
 - aws --version
 - aws configure
-```C#
+```csharp
 Default region name [None]: us-west-2
 Default output format [None]: json
 ```   

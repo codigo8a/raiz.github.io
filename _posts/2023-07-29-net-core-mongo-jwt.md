@@ -4,7 +4,7 @@ title:  "Cómo usar EntityUser y JWT con MongoDB"
 description: "Cómo usar EntityUser y JWT con MongoDB"
 comments: true
 category: tutoriales
-tags: tutoriales framework c# basedesatos
+tags: tutoriales framework csharp basedesatos
 youtube: https://youtu.be/f1hoUoB16NI
 ---
 Codigo paso a paso para integrar EntityUser y JWT con MongoDB.
@@ -12,7 +12,7 @@ Codigo paso a paso para integrar EntityUser y JWT con MongoDB.
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
 
 Instalamos paquetes:
-```C#
+```csharp
 AspNetCore.Identity.MongoDbCore
 MongoDB.Bson
 MongoDB.Driver
@@ -20,7 +20,7 @@ Microsoft.AspNetCore.Authentication.JwtBearer
 ```
 
 Ingresamos al appsettings:
-```C#
+```csharp
   ,
 "MongoDbSettings": {
   "ConnectionString": "url",
@@ -29,7 +29,7 @@ Ingresamos al appsettings:
 ```
 
 Creamos ApplicationUser:
-```C#
+```csharp
 [CollectionName("users")]
 public class ApplicationUser : MongoIdentityUser<Guid>
 {
@@ -38,7 +38,7 @@ public class ApplicationUser : MongoIdentityUser<Guid>
 ```
 
 Creamos ApplicationRole:
-```C#
+```csharp
 [CollectionName("roles")]
 public class ApplicationRole : MongoIdentityRole<Guid>
 {
@@ -47,7 +47,7 @@ public class ApplicationRole : MongoIdentityRole<Guid>
 ```
 
 Agregamos a Program.cs:
-```C#
+```csharp
 // Add services to the container.
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection(nameof(MongoDbSettings)));
 BsonSerializer.RegisterSerializer(new GuidSerializer(MongoDB.Bson.BsonType.String));
@@ -126,7 +126,7 @@ builder.Services.AddSwaggerGen(setup =>
 ```
 
 Creamos LoginRequest Dto:
-```C#
+```csharp
 [Required, EmailAddress]
 public string Email { get; set; } = string.Empty;
 [Required, DataType(DataType.Password)]
@@ -134,7 +134,7 @@ public string Password { get; set; } = string.Empty;
 ```
 
 Creamos RegisterRequest Dto:
-```C#
+```csharp
 [Required, EmailAddress]
 public string Email { get; set; } = string.Empty;
 public string Username { get; set; } = string.Empty;
@@ -148,12 +148,12 @@ public string ConfirmPassword { get; set; } = string.Empty;
 ```
 
 Creamos CreateRoleRequest Dto:
-```C#
+```csharp
 public string Role { get; set; } = string.Empty;
 ```
 
 Creamos LoginResponse Dto:
-```C#
+```csharp
 public bool Success { get; set; }
 public string AccessToken { get; set; } = string.Empty;
 public string Email { get; set; } = string.Empty;
@@ -162,13 +162,13 @@ public string Message { get; set; } = string.Empty;
 ```
 
 Creamos RegisterResponse Dto:
-```C#
+```csharp
 public string Message { get; set; } = string.Empty;
 public bool Success { get; set; }
 ```
 
 Creamos AuthenticationController:
-```C#
+```csharp
 [ApiController]
 [Route("api/v1/authenticate")]
 public class AuthenticationController : ControllerBase

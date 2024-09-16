@@ -16,6 +16,6 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 * Ingresamos al Shell
 * Copiamos y pegamos el siguiente comando
 
-```C#
+```csharp
 pveam update
 ```

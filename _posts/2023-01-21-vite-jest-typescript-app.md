@@ -11,7 +11,7 @@ Paso a paso para crear una prueba unitaria basica con Jest en React con Vite y T
 
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
 
-```C#
+```csharp
 yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react 
 yarn add --dev @testing-library/react @testing-library/dom @testing-library/user-event @types/jest jest-environment-jsdom
 yarn add --dev jest-svg-transformer

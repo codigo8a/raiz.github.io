@@ -4,7 +4,7 @@ title:  "Cómo instalar EntityUser y JWT NetCore 5"
 description: Cómo instalar service EntityUser y JWT en NetCore 5
 comments: true
 category: tutoriales
-tags: c# framework
+tags: csharp framework
 youtube: https://youtu.be/EbKw0Dcaf6o
 ---
 Paso a paso para instalar el servicio EntityUser que trae por defecto .Net Core 5 y activar JWT para el login de usuarios desde un front-end
@@ -13,7 +13,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 
 - Crear la carpeta Models
 - Crear el modelo: ApplicationUser
-```C#
+```csharp
 public class ApplicationUser : IdentityUser
 {
 }
@@ -23,7 +23,7 @@ public class ApplicationUser : IdentityUser
 - Renombrar el DbContext por: ApplicationDbContext
 - Actualizar el DbContext
 
-```C#
+```csharp
 : IdentityDbContext<ApplicationUser>
 ```
 
@@ -33,7 +33,7 @@ public class ApplicationUser : IdentityUser
 - Actualizar base de datos
 - Crear modelo: RegisterModel
 
-```C#
+```csharp
 [Required(ErrorMessage ="User Name is required")]
 public string Username { get; set; }
 
@@ -47,7 +47,7 @@ public string Password { get; set; }
 
 - Crear modelo: LoginModel
 
-```C#
+```csharp
 [Required(ErrorMessage = "User Name is required")]
 public string Username { get; set; }
 
@@ -58,7 +58,7 @@ public string Password { get; set; }
 - Crear el controlador: AccountController
 - Agregar el constructor al controlador
 
-```C#
+```csharp
 private readonly UserManager<ApplicationUser> userManager;
 private readonly RoleManager<IdentityRole> roleManager;
 private readonly IConfiguration _configuration;
@@ -73,7 +73,7 @@ public AccountController(UserManager<ApplicationUser> userManager, RoleManager<I
 
 - Agregar el metodo registrar dentro del controlador
 
-```C#
+```csharp
 [HttpPost]
 [Route("register")]
 public async Task<IActionResult> Register([FromBody] RegisterModel model)
@@ -98,7 +98,7 @@ public async Task<IActionResult> Register([FromBody] RegisterModel model)
 
 - Agregar en metodo login dentro del controlador
 
-```C#
+```csharp
 [HttpPost]
 [Route("login")]
 public async Task<IActionResult> Login([FromBody] LoginModel model)
@@ -141,7 +141,7 @@ public async Task<IActionResult> Login([FromBody] LoginModel model)
 
 - Agregamos los servicios en startup
 
-```C#
+```csharp
 // For Identity
 services.AddIdentity<ApplicationUser, IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -173,7 +173,7 @@ services.AddAuthentication(options =>
 
 - Actualizamos el servicio de Swagger en startup
 
-```C#
+```csharp
 services.AddSwaggerGen(swagger =>
 {
     //This is to generate the Default UI of Swagger Documentation
@@ -212,14 +212,14 @@ services.AddSwaggerGen(swagger =>
 
 - Agregamos las aplicaciones en startup
 
-```C#
+```csharp
 app.UseAuthentication();
 app.UseAuthorization();
 ```
 
 - Agregamos al: appsettings
 
-```C#
+```csharp
 "JWT": {
   "SecretKey": "LJLKSFJYEWIYEWBBLKASJDASDASDTWEBNVASNBDVCAS",
   "ValidAudience": "https://localhost:44324",

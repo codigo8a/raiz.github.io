@@ -4,7 +4,7 @@ title:  "Solucionar problema CORS en .Net Core 5"
 description: Cómo Solucionar problema CORS en .Net Core 5
 comments: true
 category: Error
-tags: error framework c#
+tags: error framework csharp
 youtube: https://youtu.be/CDEaBtEeVwM
 ---
 Un par de lineas para solucionar el problema de CORS en API .Net Core 5
@@ -12,7 +12,7 @@ Un par de lineas para solucionar el problema de CORS en API .Net Core 5
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
 
 - Poner en el archivo startup en la seccion de servicios
-```C#
+```csharp
 services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder => { 
@@ -25,6 +25,6 @@ services.AddCors(options =>
 ```
 
 - Poner en el archivo startup en la seccion de aplicaciones
-```C#
+```csharp
 app.UseCors();
 ```

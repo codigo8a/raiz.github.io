@@ -21,7 +21,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 
 4. Copiar codigo:
    
-```C#
+```csharp
 //+------------------------------------------------------------------+
 //|                                                      vikingo.mq5 |
 //|                                  Copyright 2023, MetaQuotes Ltd. |

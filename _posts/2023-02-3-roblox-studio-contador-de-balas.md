@@ -12,7 +12,7 @@ Codigo para agregar un contador de balas en Roblox Studio usando el (ACS) Advanc
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
 
 Editar linea 1511 en StarterPlayer/StarterCharacterScripts/ACS_Client/ACS_Framework
-```C#
+```csharp
 	if WeaponData.ShootType == 1 then
 		HUD.FText.Text = Ammo.."/"..StoredAmmo.." | Semi"
 	elseif WeaponData.ShootType == 2 then

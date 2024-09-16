@@ -4,7 +4,7 @@ title:  "Cómo integrar Clean Arquitecture a Net Core 7"
 description: "Cómo integrar Clean Arquitecture a Net Core 7"
 comments: true
 category: tutoriales
-tags: tutoriales framework c#
+tags: tutoriales framework csharp
 youtube: https://youtu.be/vItyn5jd-k8
 ---
 Codigo paso a paso para integrar Clean Arquitecture a Net Core 7.
@@ -38,7 +38,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 - .Infrastructure = .Core
 
 6. Ingresamos al appsettings:
-```C#
+```csharp
 ,
 "MongoDbSettings": {
   "ConnectionString": "url",
@@ -47,13 +47,13 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 ```
 
 7. Creamos MongoDbSettingsEntity:
-```C#
+```csharp
 public string ConnectionString { get; set; } = string.Empty;
 public string DatabaseName { get; set; } = string.Empty;
 ```
 
 8. Instalamos paquetes:
-```C#
+```csharp
 MongoDB.Bson
 MongoDB.Driver
 Microsoft.Extensions.Options
@@ -61,12 +61,12 @@ AspNetCore.Identity.MongoDbCore
 ```
 
 9. Agregamos al program:
-```C#
+```csharp
 builder.Services.Configure<MongoDbSettingsEntity>(builder.Configuration.GetSection(nameof(MongoDbSettings)));
 ```
 
 10. Creamos el UserEntity:
-```C#
+```csharp
 [BsonIgnoreExtraElements]
 public class UserEntity
 {
@@ -80,17 +80,17 @@ public class UserEntity
 ```
 
 11. Creamos IUserRepository y IUserService:
-```C#
+```csharp
 Task<List<UserEntity>> GetAll();
 ```
 
 12. Creamos IContext:
-```C#
+```csharp
 IMongoCollection<UserEntity> Users { get;  }
 ```
 
 13. Creamos Context:
-```C#
+```csharp
 public class Context : IContext
 {
     private readonly IMongoDatabase _database;
@@ -104,7 +104,7 @@ public class Context : IContext
 ```
 
 14. Creamos UserRepository:
-```C#
+```csharp
 public class UserRepository : IUserRepository
 {
     private readonly IContext _context;
@@ -117,7 +117,7 @@ public class UserRepository : IUserRepository
 ```
 
 15. Creamos UserService:
-```C#
+```csharp
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
@@ -133,7 +133,7 @@ public class UserService : IUserService
 ```
 
 16. Creamos UserService:
-```C#
+```csharp
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
@@ -149,13 +149,13 @@ public class UserService : IUserService
 ```
 
 17. Agregamos al program:
-```C#
+```csharp
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddSingleton<IUserRepository, UserRepository>();
 ```
 
 18. Creo UserController:
-```C#
+```csharp
 [Route("api/[controller]")]
 [ApiController]
 public class UserController : ControllerBase

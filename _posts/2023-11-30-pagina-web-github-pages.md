@@ -22,7 +22,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 
 3. Configurar dominio
 - Crear DNS personalizados
-```C#
+```csharp
 185.199.108.153
 185.199.109.153
 185.199.110.153

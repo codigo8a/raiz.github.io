@@ -14,6 +14,6 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 1. Abrir Power Shell.
 
 2. Ejecutar codigo
-```C#
+```csharp
 Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ``` 

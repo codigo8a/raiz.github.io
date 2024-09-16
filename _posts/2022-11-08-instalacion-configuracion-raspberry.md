@@ -12,17 +12,17 @@ Listado de cosas por instalar en una Raspberry, otras aplicaciones y configuraci
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
 
 Raspberry Pi Image
-```C#
+```csharp
 https://www.raspberrypi.com/software/
 ```
 
 Aplicación para saber la ip: 
-```C#
+```csharp
 https://www.advanced-ip-scanner.com/
 ```
 
 Instalar escritorio remoto: 
-```C#
+```csharp
 sudo apt update
 sudo apt upgrade
 sudo reboot
