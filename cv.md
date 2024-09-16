@@ -28,7 +28,7 @@ Experto en Sistematización de Procesos en la Nube (Test-driven development (TDD
 2021 – Presente<br>
 Medellin - Colombia<br>
 <br>
-Clientes: Tuya, sistecredito, Comfama, Bolsa de Valores Colombia (Flutter, C#, .Net Core, React.js, Next.js, Springboot).
+Clientes: Tuya, Sistecredito, Comfama, Bolsa de Valores Colombia (Flutter, C#, .Net Core, React.js, Next.js, Springboot).
 <hr/>
 
 ### Full Stack Developer.
