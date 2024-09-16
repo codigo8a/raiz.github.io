@@ -47,7 +47,7 @@ Flutter, C#, Net Core, Javascript, Node.Js, React framework, API, PHP, GraphQL.
 2019 – 2020<br>
 Medellin - Colombia<br>
 
-Sistematización de procesos e integración con ERP Novasoft en .NET CORE (Stored Procedure SQL, C#, Javascript, API-REST, Swagger, GLPI, Scraping, HTML5, Bootstrap.
+Sistematización de procesos e integración con ERP Novasoft en .NET CORE (Stored Procedure SQL, C#, Javascript, API-REST, Swagger, GLPI, Scraping, HTML5, Bootstrap.)
 <hr/>
 ### Director Departamento de Desarrollo.
 **Diez Equis S.A.**
