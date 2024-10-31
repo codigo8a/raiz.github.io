@@ -4,7 +4,7 @@ title:  "Cómo manejar errores en un Micro-FrontEnd React"
 description: "Cómo manejar errores en un  Micro-FrontEnd (remote - cliente)"
 comments: true
 category: tutoriales
-tags: tutoriales react
+tags: tutoriales react framework
 youtube: https://youtu.be/ScwqUMKhNm4
 ---
 Código paso a paso para agregar un archivo que nos maneje los errores en un Micro-FrontEnd.
