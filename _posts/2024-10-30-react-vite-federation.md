@@ -17,7 +17,7 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 2. Instalar pnpm (PowerShell):
 
 ```
-    Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
+Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
 ```
 
 3. Instalar federation (cliente y remoto):
@@ -26,10 +26,9 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 4. Configurar package.json (cliente y remoto)
    
 ```csharp
-    "preview": "vite preview --port 5001 --strictPort",
-    "start": "npm run build && npm run preview"
+"preview": "vite preview --port 5001 --strictPort",
+"start": "npm run build && npm run preview"
 ```
-//+--------   
 
 5. Configurar vite.config (remoto)
 
@@ -58,7 +57,6 @@ export default defineConfig({
   },
 });
 ```
-//+--------  
 
 6. Configurar main.tsx (remoto)
 
@@ -71,10 +69,9 @@ const Main = () => (
 
 export default Main;
 ```
-//+--------  
-
 
 7. Configurar vite.config (cliente)
+   
 ```csharp
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
@@ -100,23 +97,15 @@ export default defineConfig({
   },
 });
 ```
-//+--------  
 
 8. Crear declares.d.ts (cliente)
+   
 ```csharp
 declare module 'remoteApp/remote-app' {
     export default RemoteApp;
 }
-```   
+```
 
 9. Modificar app del cliente
    
 10. npm run start (remoto y cliente)
-
-<pre>
-    <code>
-        let num = 5;
-        num++;
-    </code>
-</pre>
-
