@@ -2,8 +2,8 @@
 // github.com/h01000110
 function numbers() {
   var fields = document.getElementsByTagName("code");
-  for (var field in fields) {
-    var select = fields[field].innerText;
+  for (var i = 0; i < fields.length; i++) {
+    var select = fields[i].innerText;
     var select_f = select.split(/\n/);
     var tab = document.createElement("table");
 
@@ -13,12 +13,12 @@ function numbers() {
     /**/select_f.splice(-1, 1);/**/
     /* END OF SECTION */
 
-    fields[field].innerHTML = "";
-    fields[field].appendChild(tab);
-    for (var line in select_f) {
+    fields[i].innerHTML = "";
+    fields[i].appendChild(tab);
+    for (var j = 0; j < select_f.length; j++) {
       var row = document.createElement("tr");
       var colc = document.createElement("td");
-      colc.innerText = select_f[line];
+      colc.innerText = select_f[j];
       row.appendChild(colc);
       tab.appendChild(row);
 
