@@ -16,9 +16,9 @@ En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un v
 
 2. Instalar pnpm (PowerShell):
 
-``
+```
     Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
-``
+```
 
 3. Instalar federation (cliente y remoto):
   - pnpm add @originjs/vite-plugin-federation --save-dev
