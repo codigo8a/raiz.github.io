@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cómo manejar errores en un Micro-FrontEnd"
+title:  "Cómo manejar errores en un Micro-FrontEnd React"
 description: "Cómo manejar errores en un  Micro-FrontEnd (remote - cliente)"
 comments: true
 category: tutoriales
