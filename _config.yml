@@ -23,4 +23,5 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
-    line_numbers: false
+  line_numbers: false
+  coderay_line_numbers: false
