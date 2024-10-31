@@ -11,7 +11,7 @@ Código paso a paso para crear dos aplicaciones (remoto y cliente) React + Vite 
 
 En <a target="_blank" href="{{ page.youtube }}">mi canal de youtube</a> hay un video del paso a paso:
  
-***01 Crear dos proyectos (remoto y cliente)
+***01 Crear dos proyectos (remoto y cliente)***
 - npm create vite@latest
 
 02 Instalar pnpm (PowerShell)
