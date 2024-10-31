@@ -20,6 +20,6 @@ sass:
 # Markdown
 markdown: kramdown
 kramdown:
-  syntax_highlighter: coderay
-  coderay:
-    line_numbers: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
