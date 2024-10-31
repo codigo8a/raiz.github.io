@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cómo crear un Micro-FrontEnd"
+title:  "Cómo crear un Micro-FrontEnd React + Vite + Federation"
 description: "Cómo crear Micro-FrontEnd (remote - cliente)"
 comments: true
 category: tutoriales
