@@ -113,3 +113,10 @@ declare module 'remoteApp/remote-app' {
    
 10. npm run start (remoto y cliente)
 
+<pre>
+    <code>
+        let num = 5;
+        num++;
+    </code>
+</pre>
+
