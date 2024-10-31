@@ -57,3 +57,10 @@ export default ErrorBoundary;
   <App />
 </ErrorBoundary>
 ```
+
+***03 Error de ejemplo***
+```csharp
+  useEffect(() => {
+      throw new Error('Este es un error generado intencionalmente');
+  }, []);
+```
