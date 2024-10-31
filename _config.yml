@@ -22,6 +22,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    coderay_line_numbers: false
-    block:
-      line_numbers: false
+    disable : true
