@@ -101,4 +101,4 @@ declare module 'remoteApp/remote-app' {
 ```
 
 ***09 Modificar app del cliente***  
-######10 npm run start (remoto y cliente)######
+***10 npm run start (remoto y cliente)***
