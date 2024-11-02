@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Cómo manejar errores en un Micro-FrontEnd React"
-description: "Cómo manejar errores en un  Micro-FrontEnd (remote - cliente)"
+title:  "Cómo manejar errores en React"
+description: "Cómo manejar errores en una app React"
 comments: true
 category: tutoriales
 tags: tutoriales react framework
