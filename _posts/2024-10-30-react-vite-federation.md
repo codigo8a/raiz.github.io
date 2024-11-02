@@ -20,7 +20,7 @@ Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expr
 ```
 
 ***03 Instalar federation (cliente y remoto)***
-- pnpm add @originjs/vite-plugin-federation --save-dev
+- pnpm add @originjs/vite-plugin-federation
 
 ***04 Configurar package.json (cliente y remoto)***
 ```csharp
